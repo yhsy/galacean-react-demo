@@ -3,7 +3,8 @@ import React, { memo, useLayoutEffect, useRef } from "react";
 import "./App.css";
 
 import anBgImg from "./assets/an/egg-ga/images/d69feb5cd469e57a03d1fbd78343b5cf.png";
-import eggJson from "./assets/an/egg-ga/egg.json";
+// import eggJson from "./assets/an/egg-ga/egg.json";
+import eggJson from "./assets/an/egg-ga/egg-png.json";
 
 import AnGalacean from "./components/an-ga";
 
