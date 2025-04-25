@@ -1,4 +1,4 @@
-import React, { memo, useLayoutEffect, useRef, useState, useCallback, useEffect } from "react";
+import React, { memo, useRef, useState, useCallback, useEffect } from "react";
 import { Player } from "@galacean/effects";
 
 const AnGalacean = memo(function AnGalacean(props) {
@@ -72,7 +72,6 @@ const AnGalacean = memo(function AnGalacean(props) {
     }
   }, [anJson]);
 
-  // 使用useEffect代替useLayoutEffect以避免某些情况下的同步渲染问题
   useEffect(() => {
     // 确保DOM已渲染完成
     const timer = setTimeout(() => {
