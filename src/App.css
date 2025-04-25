@@ -18,10 +18,24 @@
   flex-direction: column;
   align-items: center;
 }
+.an-list li .animation-container{
+  width: 475px;
+  height: 367px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .an-list li h3{
+   font-size: 14px;
+  }
+  .an-list li .animation-container{
+    width: 238px;
+    height: 184px;
   }
 }
 

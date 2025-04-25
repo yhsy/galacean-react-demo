@@ -20,20 +20,18 @@ function App(props = { show: true }) {
         className="an-list"
       >
         <li>
-          <h3>默认(webp(0.98M)/png(0.88M))兼容加载</h3>
+          <h3>默认(webp(0.98M)/png(0.88M))兼容</h3>
           <div
             className="animation-container"
-            style={{ width: "475px", height: "367px" }}
           >
             <AnGalacean anJson={eggJson} bg={anBgImg} />
           </div>
         </li>
         <li>
         {/* <h3>默认-压缩(webp/png)1.43M</h3> */}
-        <h3>默认-压缩(webp(0.77M)/png(0.69M))兼容加载</h3>
+        <h3>默认-压缩(webp(0.77M)/png(0.69M))兼容</h3>
           <div
             className="animation-container"
-            style={{ width: "475px", height: "367px" }}
           >
             <AnGalacean anJson={eggJsonTiny} bg={anBgImg} />
           </div>
@@ -42,7 +40,6 @@ function App(props = { show: true }) {
         <h3>Png格式(png)0.88M</h3>
           <div
             className="animation-container"
-            style={{ width: "475px", height: "367px" }}
           >
             <AnGalacean anJson={eggJsonPng} bg={anBgImg} />
           </div>
@@ -51,7 +48,6 @@ function App(props = { show: true }) {
         <h3>Png格式-压缩(png)0.69M</h3>
           <div
             className="animation-container"
-            style={{ width: "475px", height: "367px" }}
           >
             <AnGalacean anJson={eggJsonPngTiny} bg={anBgImg} />
           </div>
